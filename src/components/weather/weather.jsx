@@ -2,7 +2,7 @@
 
 
 
-
+import "./weather.css"
 const Weather = ({forcast}) => {
 
   const {day,img,imgAlt,conditions,time} = forcast
