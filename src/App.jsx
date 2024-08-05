@@ -55,11 +55,14 @@ const App = () => {
 
 
 return<>
-
-
-
- <WeatherIcon forcast={weatherForecasts}/>
+<div className="weather">
+<WeatherIcon forcast={weatherForecasts}/>
  <WeatherData forcast={weatherForecasts}/>
+
+</div>
+
+
+ 
 
 </>
 

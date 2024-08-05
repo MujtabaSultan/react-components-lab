@@ -2,26 +2,26 @@
 
 
 
-import "./weather.css"
-const Weather = ({forcast}) => {
 
-  const {day,img,imgAlt,conditions,time} = forcast
+// const Weather = ({forcast}) => {
 
-  return (
-    <>
+//   const {day,img,imgAlt,conditions,time} = forcast
+
+//   return (
+//     <>
     
-<div className="weather">
-  <h2>{day}</h2>
-  <img src={img} alt={imgAlt} />
-  <p><span>conditions: </span>{conditions}</p>
-  <p><span>time: </span>{time}</p>
-</div>
+// <div className="weather">
+//   <h2>{day}</h2>
+//   <img src={img} alt={imgAlt} />
+//   <p><span>conditions: </span>{conditions}</p>
+//   <p><span>time: </span>{time}</p>
+// </div>
     
-    </>
-  );
-}
+//     </>
+//   );
+// }
 
-export default Weather
+// export default Weather
 
 
 
