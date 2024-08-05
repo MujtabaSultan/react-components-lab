@@ -39,7 +39,8 @@ const weatherForecasts = [
   },
 ];
 
-import Weather from "./components/weather/weather.jsx"
+import WeatherIcon from "./components/weathericon/weathericon.jsx"
+import WeatherData from "./components/weatherdata/weatherdata.jsx"
 
 const App = () => {
 
@@ -49,16 +50,19 @@ const App = () => {
   <h1>Local Weather</h1>
   <section>
 
-{/* {weatherForecasts.map((weekday)=>{
-
-     <weather day = {weekday.day}  img = {weekday.img}  imgAlt = {weekday.imgAlt}  condition = {weekday.conditions}  time = {weekday.time}/>
-  
-})} */}
-
 
 {weatherForecasts.map((weatherForecasts)=>{
 
-return <Weather forcast={weatherForecasts}/>
+
+return<>
+
+
+
+ <WeatherIcon forcast={weatherForecasts}/>
+ <WeatherData forcast={weatherForecasts}/>
+
+</>
+
 
 })}
 
